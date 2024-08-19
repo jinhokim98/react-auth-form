@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# 리액트 회원가입/로그인 폼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="236" alt="스크린샷 2024-08-19 오후 3 59 09" src="https://github.com/user-attachments/assets/6884123d-dcec-49b2-ae5f-5a4ea87000bd">
 
-Currently, two official plugins are available:
+> 예시 이미지입니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 기능 요구 사항
 
-## Expanding the ESLint configuration
+1. 입력 받아야하는 값은 `이메일`, `비밀번호`, `비밀번호 확인` 이다.
+   각각의 유효성 검사는 다음과 같다.
+   - 이메일 입력은 이메일의 형식에 맞춰야한다. 형식에 맞지 않는다면 사용자에게 알려준다.
+   - 비밀번호는 대,소문자 + 특수문자가 섞여서 8자 이상이어야한다.
+   - 비밀번호 확인 섹션은 비밀번호 입력값과 같아야한다.
+2. 상단에 위치한 로그인 버튼을 누르면 버튼의 텍스트가 `로그인`, 회원가입 버튼을 누르면 버튼의 텍스트가 `회원가입`으로 변한다.
+3. 세개의 입력 값중에 하나라도 유효하지 않을시에 사용자에게 알린다.
+4. 제출 버튼을 눌렀을때 입력 값을 담은 `alert`창이 띄워져야한다.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[🗂 Figma](https://www.figma.com/)
 
-- Configure the top-level `parserOptions` property like this:
+> 추후 피그마 추가 예정
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✅ 프로그래밍 요구사항
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. RTL(React Testing Library)을 활용하여 테스트 코드를 작성한다.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. 반복되는 컴포넌트에 대한 재사용성을 높인다.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. Github pages를 활용한 배포 링크를 PR 본문에 추가해야한다.
