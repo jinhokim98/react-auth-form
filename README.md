@@ -2,9 +2,10 @@
 
 <img width="236" alt="스크린샷 2024-08-19 오후 3 59 09" src="https://github.com/user-attachments/assets/6884123d-dcec-49b2-ae5f-5a4ea87000bd">
 
-> 예시 이미지입니다.
+## 🚀 진행 방식
+1. 미션 진행은 [미션 진행 가이드 문서](https://github.com/develup-mission/docs/blob/main/mission-guide.md)를 따른다.
 
-## 🎯 기능 요구 사항
+## 💻 기능 요구 사항
 
 1. 입력 받아야하는 값은 `이메일`, `비밀번호`, `비밀번호 확인` 이다.
    각각의 유효성 검사는 다음과 같다.
