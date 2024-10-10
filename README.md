@@ -2,6 +2,8 @@
 
 <img width="236" alt="스크린샷 2024-08-19 오후 3 59 09" src="https://github.com/user-attachments/assets/6884123d-dcec-49b2-ae5f-5a4ea87000bd">
 
+> 이 이미지는 예시 이미지입니다. 이러한 디자인의 형태로 만들어도 좋고, 커스텀 하셔도 좋습니다. 다만 밑의 기능 요구사항은 충족하셔서 미션 진행해주세요.
+
 ## 🚀 진행 방식
 1. 미션 진행은 [미션 진행 가이드 문서](https://github.com/develup-mission/docs/blob/main/mission-guide.md)를 따른다.
 
