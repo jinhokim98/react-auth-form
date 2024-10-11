@@ -45,13 +45,3 @@
   background-color: #0056b3;
   color: white;
 }
-
-.submitButton {
-  padding: 0.8rem;
-  background-color: #007bff;
-
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-}
