@@ -1,0 +1,57 @@
+.authFormContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+
+  font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  gap: 2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 0.5rem;
+}
+
+.button {
+  flex: 1;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.buttonActive {
+  background-color: #0056b3;
+  color: white;
+}
+
+.submitButton {
+  padding: 0.8rem;
+  background-color: #007bff;
+
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
